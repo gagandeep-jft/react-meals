@@ -1,0 +1,8 @@
+:global(.text-bold){
+    font-weight: bold;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.782);
+    padding: 10rem 0;
+}

@@ -1,0 +1,66 @@
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  width: 100vw;
+  cursor: unset;
+  top: 0;
+}
+
+.modal {
+  background-color: white;
+  position: fixed;
+  z-index: 12;
+  width: 70%;
+  left: 15%;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 40%;
+    left: 30%;
+  }
+}
+
+.total-amount {
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.btns button {
+  font-weight: bold;
+  margin: 0.2rem;
+}
+
+.btns button:hover {
+  box-shadow: 1px 4px 5px grey;
+}
+
+.btn {
+  color: var(--mustard-color);
+  background-color: white;
+  border: 3px solid var(--mustard-color);
+}
+
+.btn-disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.cart-empty-message{
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
